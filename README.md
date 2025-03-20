@@ -22,20 +22,15 @@ I experimented with multiple algorithms to find the best-performing model for pr
 
  Best Model: Random Forest Regressor
  After evaluating all models, the Random Forest Regressor was selected as the best model due to its superior performance and accuracy. Some key hyperparameters I used include:
- 
-    •	
 max_features = "sqrt" (each tree considers only a subset of features)
 max_depth = 75 (to prevent overfitting)
 random_state = 42 (for reproducibility)
 This model provided the most reliable and accurate house price predictions.
-
-
 To evaluate the models, I used three key metrics:
 
 •	Mean Absolute Error (MAE) – Measures the average error in predictions.
 •	Mean Squared Error (MSE) – Penalizes larger errors more than MAE.
 • R-Squared Score (R²) – Measures how well the model explains variations in house prices.
-
 •	"The Random Forest Regressor achieved the highest R² score, meaning it explained most of the variance in house prices, making it the best model for this dataset."
 
 
